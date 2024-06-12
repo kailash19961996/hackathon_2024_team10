@@ -1,10 +1,11 @@
-# Agent 1
-
 from uagents import Agent, Bureau, Context, Model
+import fitz  # PyMuPDF
 from transformers import pipeline
 
 # Initialize the Hugging Face NLP pipeline
-nlp = pipeline("text-classification", model="distilbert-base-uncased-finetuned-sst-2-english")
+# Note: Adjust the model according to your requirements. You can use a model from Hugging Face's model hub.
+# For example, using a summarization model that can help in extracting key points.
+nlp = pipeline("summarization", model="facebook/bart-large-cnn")
 
 # Define the Message model
 class DocumentMessage(Model):
@@ -12,6 +13,15 @@ class DocumentMessage(Model):
 
 class ResponseMessage(Model):
     rules: list
+
+# Function to extract text from PDF
+def extract_text_from_pdf(pdf_path):
+    doc = fitz.open(pdf_path)
+    text = ""
+    for page_num in range(len(doc)):
+        page = doc.load_page(page_num)
+        text += page.get_text()
+    return text
 
 # Create the Document Parsing Agent
 class DocumentParseAgent(Agent):
@@ -35,19 +45,11 @@ class DocumentParseAgent(Agent):
         # Preprocess the document text (if needed)
         preprocessed_text = document_text.strip()
 
-        # Use the Hugging Face pipeline to classify the document text
-        result = nlp(preprocessed_text)[0]
+        # Use the Hugging Face pipeline to summarize and extract key points from the document text
+        result = nlp(preprocessed_text, max_length=512, min_length=30, do_sample=False)
 
-        # Extract the label from the classification result
-        label = result["label"]
-
-        # Generate rules based on the label
-        if label == "POSITIVE":
-            rules = ["Allow the requested action", "Grant access"]
-        elif label == "NEGATIVE":
-            rules = ["Deny the requested action", "Restrict access"]
-        else:
-            rules = ["Further review needed"]
+        # Extract the summarized points as rules
+        rules = [summary['summary_text'] for summary in result]
 
         return rules
 
@@ -58,12 +60,15 @@ class RequestingAgent(Agent):
 
     @Agent.on_interval(period=3.0)
     async def send_message(self, ctx: Context):
-        document_text = "This is a sample document text to classify."
+        # Extract text from the PDF document
+        pdf_path = "path/to/your/document.pdf"  # Update with your PDF path
+        document_text = extract_text_from_pdf(pdf_path)
         await ctx.send(parsing_agent.address, DocumentMessage(text=document_text))
 
     @Agent.on_message(model=ResponseMessage)
     async def handle_response(self, ctx: Context, sender: str, msg: ResponseMessage):
         ctx.logger.info(f"Received rules from {sender}: {msg.rules}")
+        print(f"Received rules: {msg.rules}")
 
 # Initialize the agents
 parsing_agent = DocumentParseAgent(name="document_parser", seed="parser recovery phrase")
