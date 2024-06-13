@@ -37,8 +37,10 @@ This project leverages the power of the GPT-4 API to automate the processing of 
 ### Start Agent 3 to match claims to rules
 
 - python agent3chatGPT.py
+#### Output 1
 <img width="743" alt="Screenshot 2024-06-13 at 11 58 53 AM" src="https://github.com/kailash19961996/hackathon_2024_team10/assets/123597753/3032a7e4-3494-4b85-9e62-ff96ab18dfc1">
 
+#### Output 2
 <img width="743" alt="Screenshot 2024-06-13 at 11 59 06 AM" src="https://github.com/kailash19961996/hackathon_2024_team10/assets/123597753/a235eeba-3b57-47d1-9a46-7bf8b62dd487">
 
 
