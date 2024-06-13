@@ -47,18 +47,15 @@ This project leverages the power of the GPT-4 API to automate the processing of 
 ## Process
 
 - Agent 1 extracts the following relevant rule for early retirement due to ill health from documentA_insurance_terms.docx:
-
-- * Rule 2.2.2 Early Retirement Ill Health Eligibility:
-- * Members can retire at any age if the Scheme’s “Incapacity” definition is met.
-- * Price Range: $200-$1000 per assessment
+-  Rule 2.2.2 Early Retirement Ill Health Eligibility:
+-  Members can retire at any age if the Scheme’s “Incapacity” definition is met.
+-  Price Range: $200-$1000 per assessment
 
 - Agent 2 processes the claim details from documentB_claim_details.docx:
-
 -  John Doe: early retirement, age: 58, ill_health: yes, current_pension: $2500
 -  Jane Smith: normal retirement, age: 65, ill_health: no, current_pension: $3000
 
 - Agent 3 matches John Doe's claim to the rule extracted by Agent 1 and determines the claim status:
-
 -  Claim Status: Approved
 -  Relevant Rule: Early Retirement Ill Health Eligibility
 
@@ -82,7 +79,7 @@ This project leverages the power of the GPT-4 API to automate the processing of 
       return rules
   if __name__ == "__main__":
       rules = extract_rules('data/documentA_rules.txt')
-      print(rules)
+      print(rules)"""
 
 ### Agent 2: Processing Claims
 
