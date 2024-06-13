@@ -1,0 +1,210 @@
+### Extracted Important Rules with Approximate Price Ranges
+
+#### Section 1 - Payment Terms
+
+1.1 Frequency Of Payment: 
+- Monthly, except member 2752 – annually, next payment 27 March 2023.
+- **Price Range: $10-$50 per transaction**
+
+1.2 In Advance or in Arrears:
+- All future retirees and dependants are set up in arrears. The final payment on death is the same regardless of advance/arrears.
+- **Price Range: $20-$100 per setup**
+
+1.3 Day of Payment:
+- 27th of the month. If the 27th is a weekend or bank holiday, payment will be made on the last working day prior.
+- **Price Range: $10-$50 per transaction**
+
+1.4 Final Payment on Death:
+- The last instalment of pension due is that which is in respect of the month in which the individual receiving the pension died.
+- **Price Range: $50-$200 per case**
+
+#### Section 2 – Retirement Dates and Definitions
+
+2.1.1 Normal Retirement Date (“NRD”):
+- Scheme 1: Calculated based on member's age and years of service.
+- Scheme 2: Age 65 for those who joined after 1 November 1993, with variations for those who joined before.
+- **Price Range: $100-$500 per calculation**
+
+2.2 Early Retirement:
+- Benefits will be reduced on a cost-neutral basis.
+- **Price Range: $200-$1000 per calculation**
+
+2.2.1 Early Retirement Eligibility:
+- From 55th Birthday.
+- **Price Range: $50-$200 per eligibility check**
+
+2.2.2 Early Retirement Ill Health Eligibility:
+- Members can retire at any age if the Scheme’s “Incapacity” definition is met.
+- **Price Range: $200-$1000 per assessment**
+
+2.2.3 Early Retirement Serious Ill Health Eligibility:
+- Lump sum may be paid equal to the maximum cash the member could take if they retired immediately, plus the undiscounted value of five years’ pension payments.
+- **Price Range: $500-$2000 per calculation**
+
+2.3 Late Retirement:
+- Pension is increased using cost-neutral factors, must commence before age 75.
+- **Price Range: $100-$500 per calculation**
+
+2.4 Commutation Available:
+- Yes – maximum allowable under post 5 April 2006 legislation.
+- **Price Range: $100-$500 per transaction**
+
+2.5 Guarantee Period:
+- 5 years from the member’s retirement date.
+- **Price Range: $100-$500 per setup**
+
+#### Section 3 – Pension Revaluation in Deferment
+
+3.1 Fixed Rate Revaluation:
+- Pre 6/4/1988 GMP: Fixed Rate Revaluation.
+- Post 5/4/1988 GMP: Fixed Rate Revaluation.
+- All non-GMP benefits: Fixed 7.5%.
+- **Price Range: $100-$500 per calculation**
+
+3.2 Increase Reference:
+- GMP and Non-GMP increases based on complete years from date of leaving to nominated date of retirement.
+- **Price Range: $100-$500 per calculation**
+
+#### Section 4 – Pension Increases in Payment
+
+4.1 Fixed 7.5% Increase:
+- Pre 6/4/1988 GMP, Post 5/4/1988 GMP, Pre 6/4/1997 Excess, 6/4/1997 to 30/4/1999 Benefits.
+- **Price Range: $100-$500 per increase**
+
+4.1 Post 30/4/1999 Benefits:
+- RPI subject to a minimum increase of 0% and a maximum increase of 5%.
+- **Price Range: $100-$500 per increase**
+
+4.2 Date of Increase:
+- As shown in the data for future retirees.
+- **Price Range: $10-$50 per transaction**
+
+4.3 Reference Month for Index Linked Increases:
+- 3 months prior to the increase date shown in the data.
+- **Price Range: $10-$50 per transaction**
+
+4.4 Increases on GMP before GMP Age:
+- In line with non-GMP increases.
+- **Price Range: $100-$500 per increase**
+
+4.5 Reduced if Negative Inflation:
+- No.
+- **Price Range: $10-$50 per policy**
+
+4.6 Step-up at GMP Age:
+- Only if a statutory requirement.
+- **Price Range: $100-$500 per case**
+
+4.8 Historic Pre 6 April 2006 Inland Revenue Maximum Cases:
+- Pension increases restricted to comply with Inland Revenue limits.
+- **Price Range: $100-$500 per case**
+
+#### Section 5 – Death Before Normal Retirement Date
+
+5.1 Widow/Widower’s Pension:
+- 50% of pension at DOL revalued to the member’s date of death.
+- **Price Range: $200-$1000 per calculation**
+
+5.2 Lump Sum:
+- None.
+- **Price Range: N/A**
+
+5.3 Children’s Pension:
+- None.
+- **Price Range: N/A**
+
+5.4 Start Date of Widow/Widower’s Pension:
+- Immediately.
+- **Price Range: $50-$200 per setup**
+
+5.5 Cease on Remarriage:
+- No.
+- **Price Range: $50-$200 per policy**
+
+5.6 Commutation Available:
+- Yes, where possible.
+- **Price Range: $100-$500 per transaction**
+
+#### Section 6 – Death After Taking Retirement Benefits
+
+6.1 Qualifying Spouse’s Pension:
+- 50% of member’s pre-commutation pension.
+- **Price Range: $200-$1000 per calculation**
+
+6.2 Lump Sum:
+- If death occurs within 5 years, a lump sum equal to the total of the pension payments for the balance of the 5 years.
+- **Price Range: $200-$1000 per calculation**
+
+6.3 Qualifying Children’s Pension:
+- Equal to the Qualifying Spouse’s pension if no spouse is present.
+- **Price Range: $200-$1000 per calculation**
+
+6.4 Start Date of Spouses’/Children’s/Dependants’ Pension:
+- Immediately.
+- **Price Range: $50-$200 per setup**
+
+6.5 First Increase Proportionate:
+- No.
+- **Price Range: $50-$200 per policy**
+
+6.6 Cease on Remarriage:
+- No.
+- **Price Range: $50-$200 per policy**
+
+6.7 Commutation Available:
+- Yes, where possible.
+- **Price Range: $100-$500 per transaction**
+
+#### Section 7 – Death After Reaching NRD Without Taking Benefits
+
+7.1 Qualifying Spouse’s Pension:
+- 50% of the pension the deferred member would have been entitled to.
+- **Price Range: $200-$1000 per calculation**
+
+7.2 Lump Sum:
+- 3 times the pension the deferred member would have been entitled to.
+- **Price Range: $200-$1000 per calculation**
+
+7.3 Qualifying Children’s Pension:
+- Equal to the qualifying spouse’s pension if no spouse is present.
+- **Price Range: $200-$1000 per calculation**
+
+7.4 Start Date of Spouses’/Children’s/Dependants’ Pension:
+- Immediately.
+- **Price Range: $50-$200 per setup**
+
+7.5 First Increase Proportionate:
+- No.
+- **Price Range: $50-$200 per policy**
+
+7.6 Cease on Remarriage:
+- No.
+- **Price Range: $50-$200 per policy**
+
+7.7 Commutation Available:
+- Yes, where possible.
+- **Price Range: $100-$500 per transaction**
+
+#### Section 8 – Dependant Definitions
+
+8.1 Qualifying Spouse:
+- Defined based on financial dependency and residency status at the time of the member’s death.
+- **Price Range: $100-$500 per verification**
+
+8.2 Qualifying Child:
+- Defined based on age, disability, education status, and legal obligations.
+- **Price Range: $100-$500 per verification**
+
+8.3 Young Spouse’s Reduction:
+- Reduction if the spouse is more than 10 years younger.
+- **Price Range: $100-$500 per calculation**
+
+8.4 Minimum Length of Marriage Before Death:
+- Pension may be restricted if the member marries after retiring and dies within six months of the marriage.
+- **Price Range: $100-$500 per verification**
+
+8.5 Widow/Widower:
+- As defined in the contracting-out regulations.
+- **Price Range: $100-$500 per verification**
+
+These price ranges are approximate and can vary based on the complexity of each case and the service provider's fees.
