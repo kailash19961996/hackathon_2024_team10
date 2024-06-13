@@ -23,18 +23,18 @@ This project leverages the power of the GPT-4 API to automate the processing of 
 
 
 ### 3. Run Agents
-###- Start Agent 1 to extract rules
+### Start Agent 1 to extract rules
 
 - python agent1chatGPT.py
 <img width="1438" alt="Screenshot 2024-06-13 at 11 48 48 AM" src="https://github.com/kailash19961996/hackathon_2024_team10/assets/123597753/da01fc79-1300-4272-974a-5d2f13b9500a">
 
 
-###- Start Agent 2 to process user claims
+### Start Agent 2 to process user claims
 
 - python agent2chatGPT.py
 <img width="1438" alt="Screenshot 2024-06-13 at 11 49 19 AM" src="https://github.com/kailash19961996/hackathon_2024_team10/assets/123597753/5390e42d-ef39-47f7-85e2-2a27571f3883">
 
-###- Start Agent 3 to match claims to rules
+### Start Agent 3 to match claims to rules
 
 - python agent3chatGPT.py
 <img width="743" alt="Screenshot 2024-06-13 at 11 58 53 AM" src="https://github.com/kailash19961996/hackathon_2024_team10/assets/123597753/3032a7e4-3494-4b85-9e62-ff96ab18dfc1">
