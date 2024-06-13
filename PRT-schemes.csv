@@ -1,0 +1,91 @@
+﻿Pension Scheme ID,Scheme Name,Type,Investment Strategy,Management,Employee Contributions,Employer Contributions,Retirement Age,Payout Options,Tax-Deferred Growth,Tax Benefits,Transfer Options,Early Withdrawal Penalties,Loan Provisions,Survivor Benefits,Guide link,Descriptions
+1,Alpha,Defined Benefit (DB),Diversified Portfolio,Active,Variable based on salary,27.10%,State Pension Age or 65,"Annuities, lump-sum",Yes,Yes,Yes,Yes,No,Yes,https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/alpha-scheme-guide/,"Scheme Name: Alpha
+Type: Defined Benefit (DB)
+Investment Strategy: Diversified Portfolio
+Management: Active
+Employee Contributions: Variable based on salary
+Employer Contributions: 27.10%
+Retirement Age: State Pension Age or 65
+Payout Options: ""Annuities:  lump-sum""
+Tax-Deferred Growth: Yes
+Tax Benefits: Yes
+Transfer Options: Yes
+Early Withdrawal Penalties: Yes
+Loan Provisions: No
+Survivor Benefits: Yes
+Guide link: https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/alpha-scheme-guide/"
+2,Partnership,Defined Contribution (DC),Diversified Portfolio,Active and Passive options,"Variable, optional",Up to 3%,State Pension Age,"Annuities, lump-sum",Yes,Yes,Yes,Yes,No,Yes,https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/partnership-pension-account/,"Scheme Name: Partnership
+Type: Defined Contribution (DC)
+Investment Strategy: Diversified Portfolio
+Management: Active and Passive options
+Employee Contributions: ""Variable:  optional""
+Employer Contributions: Up to 3%
+Retirement Age: State Pension Age
+Payout Options: ""Annuities:  lump-sum""
+Tax-Deferred Growth: Yes
+Tax Benefits: Yes
+Transfer Options: Yes
+Early Withdrawal Penalties: Yes
+Loan Provisions: No
+Survivor Benefits: Yes
+Guide link: https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/partnership-pension-account/"
+3,Classic,Defined Benefit (DB),Diversified Portfolio,Active,Variable based on salary,"Variable, generous",60,"Annuities, lump-sum",Yes,Yes,Yes,Yes,No,Yes,https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/classic-scheme-guide/,"Scheme Name: Classic
+Type: Defined Benefit (DB)
+Investment Strategy: Diversified Portfolio
+Management: Active
+Employee Contributions: Variable based on salary
+Employer Contributions: ""Variable:  generous""
+Retirement Age: 60
+Payout Options: ""Annuities:  lump-sum""
+Tax-Deferred Growth: Yes
+Tax Benefits: Yes
+Transfer Options: Yes
+Early Withdrawal Penalties: Yes
+Loan Provisions: No
+Survivor Benefits: Yes
+Guide link: https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/classic-scheme-guide/"
+4,Classic Plus,Defined Benefit (DB),Diversified Portfolio,Active,Variable based on salary,"Variable, generous",60,"Annuities, lump-sum",Yes,Yes,Yes,Yes,No,Yes,https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/nuvos-scheme-guide/,"Scheme Name: Classic Plus
+Type: Defined Benefit (DB)
+Investment Strategy: Diversified Portfolio
+Management: Active
+Employee Contributions: Variable based on salary
+Employer Contributions: ""Variable:  generous""
+Retirement Age: 60
+Payout Options: ""Annuities:  lump-sum""
+Tax-Deferred Growth: Yes
+Tax Benefits: Yes
+Transfer Options: Yes
+Early Withdrawal Penalties: Yes
+Loan Provisions: No
+Survivor Benefits: Yes
+Guide link: https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/nuvos-scheme-guide/"
+5,Premium,Defined Benefit (DB),Diversified Portfolio,Active,Variable based on salary,"Variable, generous",60,"Annuities, lump-sum",Yes,Yes,Yes,Yes,No,Yes,https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/premium-scheme-guide/,"Scheme Name: Premium
+Type: Defined Benefit (DB)
+Investment Strategy: Diversified Portfolio
+Management: Active
+Employee Contributions: Variable based on salary
+Employer Contributions: ""Variable:  generous""
+Retirement Age: 60
+Payout Options: ""Annuities:  lump-sum""
+Tax-Deferred Growth: Yes
+Tax Benefits: Yes
+Transfer Options: Yes
+Early Withdrawal Penalties: Yes
+Loan Provisions: No
+Survivor Benefits: Yes
+Guide link: https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/premium-scheme-guide/"
+6,Nuvos,Defined Benefit (DB),Diversified Portfolio,Active,Variable based on salary,"Variable, generous",65,"Annuities, lump-sum",Yes,Yes,Yes,Yes,No,Yes,https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/nuvos-scheme-guide/ ,"Scheme Name: Nuvos
+Type: Defined Benefit (DB)
+Investment Strategy: Diversified Portfolio
+Management: Active
+Employee Contributions: Variable based on salary
+Employer Contributions: ""Variable:  generous""
+Retirement Age: 65
+Payout Options: ""Annuities:  lump-sum""
+Tax-Deferred Growth: Yes
+Tax Benefits: Yes
+Transfer Options: Yes
+Early Withdrawal Penalties: Yes
+Loan Provisions: No
+Survivor Benefits: Yes
+Guide link: https://www.civilservicepensionscheme.org.uk/knowledge-centre/pension-schemes/nuvos-scheme-guide/ "
