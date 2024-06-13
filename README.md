@@ -9,10 +9,14 @@ This project leverages the power of the GPT-4 API to automate the processing of 
 
 ## Instructions to Run the Project
 
-### Setup Environment
+### 1. Setup Environment
 
 - Ensure you have Python installed on your machine.
 - Install necessary dependencies by running:
 
   ```bash
   pip install openai
+
+### 2. Prepare Documents
+- Place the documentA_insurance_terms.docx and documentB_claim_details.docx files in the data directory.
+- Ensure the documentA_rules.txt and documentB_claims.txt files are also in the data directory.
