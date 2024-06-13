@@ -17,21 +17,24 @@ This project leverages the power of the GPT-4 API to automate the processing of 
   ```bash
   pip install openai
 
-### 2. Prepare Documents
+###  2. Prepare Documents
 - Place the documentA_insurance_terms.docx and documentB_claim_details.docx files in the data directory.
 - Ensure the documentA_rules.txt and documentB_claims.txt files are also in the data directory.
+
 
 ### 3. Run Agents
 - Start Agent 1 to extract rules
 
   ```bash
   python agent1chatGPT.py
-![Uploading Screenshot 2024-06-13 at 11.47.31 AM.png…]()
+<img width="1438" alt="Screenshot 2024-06-13 at 11 48 48 AM" src="https://github.com/kailash19961996/hackathon_2024_team10/assets/123597753/da01fc79-1300-4272-974a-5d2f13b9500a">
+
 
 - Start Agent 2 to process user claims
 
   ```bash
   python agent2chatGPT.py
+<img width="1438" alt="Screenshot 2024-06-13 at 11 49 19 AM" src="https://github.com/kailash19961996/hackathon_2024_team10/assets/123597753/5390e42d-ef39-47f7-85e2-2a27571f3883">
 
 - Start Agent 3 to match claims to rules
 
