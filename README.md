@@ -48,9 +48,9 @@ This project leverages the power of the GPT-4 API to automate the processing of 
 
 - Agent 1 extracts the following relevant rule for early retirement due to ill health from documentA_insurance_terms.docx:
 
--   Rule 2.2.2 Early Retirement Ill Health Eligibility:
--   Members can retire at any age if the Scheme’s “Incapacity” definition is met.
--   Price Range: $200-$1000 per assessment
+- * Rule 2.2.2 Early Retirement Ill Health Eligibility:
+- * Members can retire at any age if the Scheme’s “Incapacity” definition is met.
+- * Price Range: $200-$1000 per assessment
 
 - Agent 2 processes the claim details from documentB_claim_details.docx:
 
