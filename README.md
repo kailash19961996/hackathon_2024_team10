@@ -26,6 +26,7 @@ This project leverages the power of the GPT-4 API to automate the processing of 
 
   ```bash
   python agent1chatGPT.py
+![Uploading Screenshot 2024-06-13 at 11.47.31 AM.png…]()
 
 - Start Agent 2 to process user claims
 
