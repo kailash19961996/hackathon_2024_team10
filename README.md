@@ -48,6 +48,87 @@ This project leverages the power of the GPT-4 API to automate the processing of 
 
 - Agent 1 extracts the following relevant rule for early retirement due to ill health from documentA_insurance_terms.docx:
 
--- Rule 2.2.2 Early Retirement Ill Health Eligibility:
--- Members can retire at any age if the Scheme’s “Incapacity” definition is met.
--- Price Range: $200-$1000 per assessment
+-   Rule 2.2.2 Early Retirement Ill Health Eligibility:
+-   Members can retire at any age if the Scheme’s “Incapacity” definition is met.
+-   Price Range: $200-$1000 per assessment
+
+- Agent 2 processes the claim details from documentB_claim_details.docx:
+
+-  John Doe: early retirement, age: 58, ill_health: yes, current_pension: $2500
+-  Jane Smith: normal retirement, age: 65, ill_health: no, current_pension: $3000
+
+- Agent 3 matches John Doe's claim to the rule extracted by Agent 1 and determines the claim status:
+
+-  Claim Status: Approved
+-  Relevant Rule: Early Retirement Ill Health Eligibility
+
+## Some Code Snippets
+
+### Agent 1: Extracting Rules
+
+  ```bash
+  import openai
+  def extract_rules(file_path):
+      # Load and process the document
+      with open(file_path, 'r') as file:
+          content = file.read()
+      # Extract rules using GPT-4
+      response = openai.ChatCompletion.create(
+          model="gpt-4",
+          messages=[{"role": "system", "content": "Extract rules from the document."},
+                    {"role": "user", "content": content}]
+      )
+      rules = response['choices'][0]['message']['content']
+      return rules
+  if __name__ == "__main__":
+      rules = extract_rules('data/documentA_rules.txt')
+      print(rules)
+
+### Agent 2: Processing Claims
+
+  ```bash
+  import openai  
+  def process_claims(file_path):
+      # Load and process the document
+      with open(file_path, 'r') as file:
+          content = file.read()
+      # Extract claims using GPT-4
+      response = openai.ChatCompletion.create(
+          model="gpt-4",
+          messages=[{"role": "system", "content": "Process user claims from the document."},
+                    {"role": "user", "content": content}]
+      )
+      claims = response['choices'][0]['message']['content']
+      return claims
+  if __name__ == "__main__":
+      claims = process_claims('data/documentB_claims.txt')
+      print(claims)
+
+### Agent 3: Matching Claims to Rules
+
+  ```bash
+  import openai
+  def match_claims_to_rules(claims, rules):
+      # Match claims to rules using GPT-4
+      response = openai.ChatCompletion.create(
+          model="gpt-4",
+          messages=[{"role": "system", "content": "Match claims to rules."},
+                    {"role": "user", "content": f"Claims: {claims}\nRules: {rules}"}]
+      )
+      matched_results = response['choices'][0]['message']['content']
+      return matched_results
+  if __name__ == "__main__":
+      claims = ... # Load claims from Agent 2
+      rules = ... # Load rules from Agent 1
+      results = match_claims_to_rules(claims, rules)
+      print(results)
+
+## Special Considerations
+- Ensure the documents are formatted correctly for accurate processing.
+- Review the extracted rules and matched results for accuracy before making final decisions.
+- Maintain the confidentiality and security of user data throughout the process.
+
+
+
+
+
