@@ -1,7 +1,7 @@
 # Automated Insurance Claim Processing Using GPT-4
 
 ## Description
-This project leverages the power of the GPT-4 API to automate the processing of insurance claims. It consists of three agents that interact with documents containing insurance terms and conditions, user claims, and relevant rules. The agents collaborate to match user claims to the appropriate rules and determine the claim status.
+This project leverages the power of the GPT-4o API to automate the processing of insurance claims. It consists of three agents that interact with documents containing insurance terms and conditions, user claims, and relevant rules. The agents collaborate to match user claims to the appropriate rules and determine the claim status.
 
 - **Agent 1**: Extracts rules from the insurance terms and conditions document.
 - **Agent 2**: Processes user claims by matching the information to certain fields.
